@@ -47,6 +47,14 @@ body:before {
 </style>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=267946206944827";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <div>
     <h1>Brugundi</h1>
     <h2>Lar de culto e adoração ao demônio da Serra do Mar</h2>
@@ -54,6 +62,7 @@ body:before {
     <br>
     <br>
     <p>Brugundi é o demônio da Serra do Mar, que tem cor de banana ouro e ama a cor verde bandeira.</p>
+    <div class="fb-comments" data-href="http://brugundi.com" data-numposts="5" style="margin: 0 auto"></div>
   </div>
 
 
